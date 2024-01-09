@@ -9,12 +9,12 @@ const NextPayoutCard = () => {
         </div>
         <div className="flex items-center justify-between mx-5">
             <p className="text-[32px]/[38px]">₹2,312.23</p>
-            <p className="underline flex">
+            <p className="underline cursor-pointer flex">
                 23 orders
                 <ChevronRight className="h-6 w-6 ml-2" />
             </p>
         </div>
-        <div className="bg-[#0E4F82] flex py-2 px-6 rounded-lg h-9 mt-1 items-center justify-between">
+        <div className="bg-[#0E4F82] flex py-2 px-6 rounded-lg font-Golano h-9 mt-1 items-center justify-between">
             <p className="text-sm">Next payout date:</p>
             <p>Today, 4:00PM</p>
         </div>

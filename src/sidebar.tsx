@@ -13,7 +13,7 @@ function Sidebar() {
                 </div>
                 <div className="">
                     <p className = "text-[15px] font-medium">John Doe</p>
-                    <p className="underline text-[13px]/[16px] text-gray-300 cursor-pointer">Visit store</p>
+                    <p className="underline text-[13px]/[16px] text-gray-300 font-Golano font-normal cursor-pointer">Visit store</p>
                 </div>
                 <div className="cursor-pointer ml-auto">
                     <ChevronDown size="20px" />
@@ -32,8 +32,8 @@ function Sidebar() {
                     <Wallet />
                 </div>
                 <div className="flex flex-col justify-between"> 
-                    <p className="text-[13px]">
-                        Available Balance
+                    <p className="text-[13px] text-white">
+                        Available credits 
                     </p> 
                     <p>
                         420.69

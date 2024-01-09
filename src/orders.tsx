@@ -11,15 +11,15 @@ const Orders = () => {
                 <Search size="14px" />
                 <Input
                     placeholder="Order ID or transaction ID"
-                    className="w-full p-0 outline-none border-none focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#999999] placeholder:text-sm bg-transparent"
+                    className="w-full placeholder:font-Golano p-0 outline-none border-none focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#999999] placeholder:text-sm bg-transparent"
                 />
             </div>
             <div className="flex gap-4">
-                <div className="h-9 text-[#4d4d4d] border border-[#d9d9d9] rounded px-3 py-1.5 flex items-center justify-center">
+                <div className="h-9 text-[#4d4d4d] cursor-pointer border border-[#d9d9d9] rounded px-3 py-1.5 flex items-center justify-center">
                     <p>Sort</p>
                     <ArrowUpDown className="w-4 h-4 ml-1.5" />
                 </div>
-                <div className="h-9 text-[#4d4d4d] border border-[#d9d9d9] rounded p-2">
+                <div className="h-9 cursor-pointer text-[#4d4d4d] border border-[#d9d9d9] rounded p-2">
                     <Download className="w-5 h-5" />
                 </div>
             </div>

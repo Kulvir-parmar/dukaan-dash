@@ -9,6 +9,10 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        Golano: ['"Galano Grotesque"', "sans-serif"],
+    },
     container: {
       center: true,
       padding: "2rem",

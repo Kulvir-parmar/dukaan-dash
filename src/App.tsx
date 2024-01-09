@@ -9,7 +9,7 @@ import { ChevronDown } from "./public/chevron-down";
 function App() {
 
   return (
-    <div className="bg-background flex relative"> 
+    <div className="font-inter flex relative"> 
         {/* Sidebar */}
         <div className="w-56 h-screen z-10 sticky top-0 left-0">
             <Sidebar />
@@ -18,10 +18,10 @@ function App() {
         <div className="w-full">
         {/* Dashboard Header */}
             <div className="w-full">
-                <div className="flex h-16 py-3 px-8 w-full border-b border-[#d9d9d9] shadow sticky top-0 items-center justify-between">
+                <div className="font-Golano flex h-16 py-3 px-8 w-full border-b border-[#d9d9d9] shadow sticky top-0 items-center justify-between">
                     <div className="flex gap-4 items-center">
                         <h5>Payouts</h5>
-                        <div className="flex items-center gap-1.5 text-[#4d4d4d]">
+                        <div className="cursor-pointer flex items-center gap-1.5 text-[#4d4d4d]">
                             <HelpCircle size={"14px"} />
                             <p className="text-xs">How it works</p>
                         </div>
@@ -31,15 +31,15 @@ function App() {
                         <Search size="16px" />
                         <Input 
                             placeholder="Search features, tutorials, etc."
-                            className="w-full p-0 outline-none border-none focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#808080] placeholder:text-[15px]/[22px] bg-transparent"
+                            className="w-full p-0 outline-none border-none focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#808080] placeholder:text-[15px]/[22px] bg-transparent placeholder:font-Golano"
                         />
                     </div>
 
                     <div className="flex items-center gap-2">
-                        <div className="grid place-items-center w-10 h-10 bg-[#e6e6e6] rounded-full">
+                        <div className="grid place-items-center cursor-pointer w-10 h-10 bg-[#e6e6e6] rounded-full">
                             <Megaphone />
                         </div>
-                        <div className="grid place-items-center w-10 h-10 bg-[#e6e6e6] rounded-full">
+                        <div className="grid place-items-center w-10 h-10 cursor-pointer bg-[#e6e6e6] rounded-full">
                             <ChevronDown />
                         </div>
                     </div>

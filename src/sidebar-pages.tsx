@@ -23,13 +23,13 @@ const SideBarPages = () => {
             {
                 pagesMap.map((page, index) =>(
                     <div key={index} 
-                        className={"flex items-center text-white gap-3 px-4 py-2 rounded text-sm hover:bg-white/10 transition"
-                            + (page.active && " bg-white/10")
+                            className={"flex items-center text-black/1 gap-3 px-4 py-2 rounded text-sm hover:bg-white/10 transition"
+                            + (page.active && " bg-white/10 font-Golano")
                         }>
                         <div className="">
                             {page.icon}
                         </div>
-                        <p className="text-sm">{page.name}</p>
+                        <p className="text-sm font-medium">{page.name}</p>
                     </div>
                 ))
             }

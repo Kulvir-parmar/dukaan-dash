@@ -74,3 +74,8 @@
         @apply bg-background text-foreground;
     }
 }
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('./public/Galano/Galano1.otf') format('otf'), url('.public/Galano/Galano2.otf') format('otf');
+}

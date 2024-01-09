@@ -1,7 +1,8 @@
 import { HelpCircle, Search } from "lucide-react"
 
-import { Input } from "./components/ui/input";
 import Sidebar from "./sidebar";
+import Dashboard from "./dashboard";
+import { Input } from "./components/ui/input";
 import { Megaphone } from "./public/megaphone";
 import { ChevronDown } from "./public/chevron-down";
 
@@ -46,8 +47,8 @@ function App() {
             </div>
 
             {/* Dashboard Body */}
-            <div className="mt-8 ml-8 bg-black h-20">
-
+            <div className="m-8">
+                <Dashboard />
             </div>
         </div>
     </div>

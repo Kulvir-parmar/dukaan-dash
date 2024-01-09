@@ -1,13 +1,14 @@
 import { ChevronDown } from "lucide-react"
 
 import { Wallet } from "./public/wallet"
+import SideBarPages from "./sidebar-pages"
 
 function Sidebar() {
   return (
-    <div className = "bg-[#1E2640] text-white w-full h-full flex flex-col items-center px-2.5 py-4">
-        <div className="flex flex-col gap-6 px-2 w-full">
+    <div className = "bg-[#1E2640] text-white w-full h-screen overflow-hidden flex flex-col items-center px-2.5 py-4">
+        <div className="flex flex-col gap-6 w-full">
             {/* Company Name & Icon */}
-            <div className="gap-3 flex w-full items-center">
+            <div className="gap-3 flex w-full mx-auto items-center">
                 <div className="w-[40px] h-[40px] bg-white/10 rounded-sm">
                 </div>
                 <div className="">
@@ -20,6 +21,7 @@ function Sidebar() {
             </div>
 
             {/* Pages */}
+            <SideBarPages />
         </div>
 
 

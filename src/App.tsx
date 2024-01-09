@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="bg-background flex relative"> 
         {/* Sidebar */}
-        <div className="w-56 h-screen z-10">
+        <div className="w-56 h-screen z-10 sticky top-0 left-0">
             <Sidebar />
         </div>
 
